@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+    <h2>
+        <center><b>Student Registration Form</b></center>
+    </h2>
+    <hr>
+    <br><br>
+    <form action="submit.html" method="post">
+
+        <label for="name">Full Name:</label>
+        <input type="text" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter valid email address" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter password" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" required> Male
+        <input type="radio" name="gender" required> Female
+        <input type="radio" name="gender"required> Other<br><br>
+
+        <label for="course">Course:</label>
+        <select required>
+           <option>B.Tech</option>
+            <option>BCA</option>
+            <option>B.Sc</option>
+            <option>MCA</option>
+            <option>MBA</option>
+        </select><br><br>
+
+        <label for="contact">Contact No:</label>
+        <input type="tel" placeholder="Enter phone number" required><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea rows="3" cols="40" placeholder="Enter your address" required></textarea><br><br>
+
+        <input type="submit" value="Register" required>
+        <input type="reset" value="Clear" >
+    </form>
+    <hr>
+    <p align="center">© 2025 Student Registration Portal</p>
+
+</body>
+
+</html>
